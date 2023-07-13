@@ -1,18 +1,18 @@
 import { Component } from "react";
 import {
-  opportunityController,
-  opportunityProps,
-  opportunityState,
-} from "./opportunity_interface";
-import { template } from "./opportunity_template";
+  NavbarController,
+  NavbarProps,
+  NavbarState,
+} from "./navbar_interface";
+import { template } from "./navbar_template";
 
-export class opportunity
-  extends Component<opportunityProps, opportunityState>
-  implements opportunityController
+export class Navbar
+  extends Component<NavbarProps, NavbarState>
+  implements NavbarController
 {
   render = template.bind(this, this.props, this.state);
 
-  constructor(props: opportunityProps) {
+  constructor(props: NavbarProps) {
     super(props);
   }
 }

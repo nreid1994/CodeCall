@@ -6,7 +6,7 @@ import {
 } from "./admin_interface";
 import { template } from "./admin_template";
 export class Admin
-  extends Component<LandingProps, LandingState>
+  extends Component<AdminProps, AdminState>
   implements AdminController
 {
   render = template.bind(this, this.props, this.state);

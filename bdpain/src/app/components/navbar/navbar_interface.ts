@@ -1,4 +1,4 @@
-export interface opportunityProps {}
-export interface opportunityState {}
-export interface opportunityController {}
+export interface NavbarProps {}
+export interface NavbarState {}
+export interface NavbarController {}
 

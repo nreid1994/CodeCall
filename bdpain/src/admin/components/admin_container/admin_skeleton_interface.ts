@@ -1,3 +1,3 @@
-export interface AdminProps {}
-export interface AdminState {}
-export interface AdminController {}
+export interface Admin_Skeleton_Props {}
+export interface Admin_Skeleton_State {}
+export interface Admin_Skeleton_Controller {}

@@ -1,18 +1,18 @@
 import { Component } from "react";
 import {
-  opportunityController,
-  opportunityProps,
-  opportunityState,
+  OpportunityController,
+  OpportunityProps,
+  OpportunityState,
 } from "./opportunity_interface";
 import { template } from "./opportunity_template";
 
-export class opportunity
-  extends Component<opportunityProps, opportunityState>
-  implements opportunityController
+export class Opportunity
+  extends Component<OpportunityProps, OpportunityState>
+  implements OpportunityController
 {
   render = template.bind(this, this.props, this.state);
 
-  constructor(props: opportunityProps) {
+  constructor(props: OpportunityProps) {
     super(props);
   }
 }
