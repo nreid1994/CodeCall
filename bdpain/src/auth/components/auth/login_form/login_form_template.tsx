@@ -1,14 +1,14 @@
 import React from "react";
 import {
-  Login_Form_Controller,
-  Login_Form_Props,
-  Login_Form_State,
+  LoginFormController,
+  LoginFormProps,
+  LoginFormState,
 } from "./login_form_interface";
 
 export function template(
-  this: Login_Form_Controller,
-  props: Login_Form_Props,
-  state: Login_Form_State
+  this: LoginFormController,
+  props: LoginFormProps,
+  state: LoginFormState
 ) {
-  return <div>Im The Landing Page</div>;
+  return <div>Im The Login Page</div>;
 }

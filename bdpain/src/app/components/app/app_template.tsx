@@ -10,5 +10,5 @@ export function template(
   props: AppProps,
   state: AppState
 ) {
-  return <div>Im The opportunity Page</div>;
+  return <div>Im The App Page</div>;
 }

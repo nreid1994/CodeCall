@@ -1,18 +1,18 @@
 import { Component } from "react";
 import {
-  Login_Form_Controller,
-  Login_Form_Props,
-  Login_Form_State,
+  LoginFormController,
+  LoginFormProps,
+  LoginFormState,
 } from "./login_form_interface";
 import { template } from "./login_form_template";
 
 export class Login_Form
-  extends Component<Login_Form_Props, Login_Form_State>
-  implements Login_Form_Controller
+  extends Component<LoginFormProps, LoginFormState>
+  implements LoginFormController
 {
   render = template.bind(this, this.props, this.state);
 
-  constructor(props: Login_Form_Props) {
+  constructor(props: LoginFormProps) {
     super(props);
   }
 }

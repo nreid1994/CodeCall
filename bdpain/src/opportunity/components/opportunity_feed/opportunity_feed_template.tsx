@@ -10,5 +10,5 @@ export function template(
   props: OpportunityFeedProps,
   state: OpportunityFeedState
 ) {
-  return <div>Im The opportunity Page</div>;
+  return <div>Im The Opportunity Feed Page</div>;
 }

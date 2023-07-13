@@ -1,14 +1,14 @@
 import React from "react";
 import {
-  opportunityController,
-  opportunityProps,
-  opportunityState,
-} from "./opportunity_interface";
+  LandingController,
+  LandingProps,
+  LandingState,
+} from "./landing_interface";
 
 export function template(
-  this: opportunityController,
-  props: opportunityProps,
-  state: opportunityState
+  this: LandingController,
+  props: LandingProps,
+  state: LandingState
 ) {
-  return <div>Im The opportunity Page</div>;
+  return <div>Im The Landing Page</div>;
 }

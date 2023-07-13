@@ -1,18 +1,18 @@
 import { Component } from "react";
 import {
-  opportunityController,
-  opportunityProps,
-  opportunityState,
-} from "./opportunity_interface";
-import { template } from "./opportunity_template";
+  LandingController,
+  LandingProps,
+  LandingState,
+} from "./landing_interface";
+import { template } from "./landing_template";
 
-export class opportunity
-  extends Component<opportunityProps, opportunityState>
-  implements opportunityController
+export class Landing
+  extends Component<LandingProps, LandingState>
+  implements LandingController
 {
   render = template.bind(this, this.props, this.state);
 
-  constructor(props: opportunityProps) {
+  constructor(props: LandingProps) {
     super(props);
   }
 }

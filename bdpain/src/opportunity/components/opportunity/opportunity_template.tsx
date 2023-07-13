@@ -10,5 +10,5 @@ export function template(
   props: OpportunityProps,
   state: OpportunityState
 ) {
-  return <div>Im The opportunity Page</div>;
+  return <div>Im The Opportunity Page</div>;
 }

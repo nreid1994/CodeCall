@@ -10,5 +10,5 @@ export function template(
   props: NavbarProps,
   state: NavbarState
 ) {
-  return <div>Im The opportunity Page</div>;
+  return <div>Im The Navbar Page</div>;
 }
