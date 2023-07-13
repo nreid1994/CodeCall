@@ -14,7 +14,6 @@ export class Admin
     super(props);
   }
 }
-// hi
 
 
 

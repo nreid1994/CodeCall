@@ -11,4 +11,3 @@ export function template(
 ) {
   return <div>Im The Admin Page</div>;
 }
-// hi
