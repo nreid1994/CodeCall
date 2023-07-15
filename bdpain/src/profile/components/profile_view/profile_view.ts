@@ -1,18 +1,18 @@
 import { Component } from "react";
 import {
-  opportunityController,
-  opportunityProps,
-  opportunityState,
-} from "./opportunity_interface";
-import { template } from "./opportunity_template";
+  ProfileViewController,
+  ProfileViewProps,
+  ProfileViewState,
+} from "./profile_view_interface";
+import { template } from "./profile_view_template";
 
-export class opportunity
-  extends Component<opportunityProps, opportunityState>
-  implements opportunityController
+export class Profile_View
+  extends Component<ProfileViewProps, ProfileViewState>
+  implements ProfileViewController
 {
   render = template.bind(this, this.props, this.state);
 
-  constructor(props: opportunityProps) {
+  constructor(props: ProfileViewProps) {
     super(props);
   }
 }

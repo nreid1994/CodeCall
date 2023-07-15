@@ -1,14 +1,14 @@
 import React from "react";
 import {
-  opportunityController,
-  opportunityProps,
-  opportunityState,
-} from "./opportunity_interface";
+  ProfileController,
+  ProfileProps,
+  ProfileState,
+} from "./profile_interface";
 
 export function template(
-  this: opportunityController,
-  props: opportunityProps,
-  state: opportunityState
+  this: ProfileController,
+  props: ProfileProps,
+  state: ProfileState
 ) {
-  return <div>Im The opportunity Page</div>;
+  return <div>Im The Profile Page</div>;
 }

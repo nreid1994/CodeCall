@@ -1,4 +1,4 @@
-export interface opportunityProps {}
-export interface opportunityState {}
-export interface opportunityController {}
+export interface ProfileProps {}
+export interface ProfileState {}
+export interface ProfileController {}
 
