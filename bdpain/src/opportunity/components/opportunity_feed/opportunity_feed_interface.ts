@@ -1,4 +1,4 @@
 export interface OpportunityFeedProps {}
-export interface opportunityFeedState {}
-export interface opportunityFeedController {}
+export interface OpportunityFeedState {}
+export interface OpportunityFeedController {}
 
