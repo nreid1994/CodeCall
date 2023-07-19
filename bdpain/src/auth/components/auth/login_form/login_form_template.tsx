@@ -10,5 +10,5 @@ export function template(
   props: LoginFormProps,
   state: LoginFormState
 ) {
-  return <div>Im The Login Page</div>;
+  return <div>Im The Login Form Page</div>;
 }

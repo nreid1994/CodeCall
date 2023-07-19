@@ -5,7 +5,7 @@ import {
   AdminContainerState,
 } from "./admin_container_interface";
 import { template } from "./admin_container_template";
-export class Admin_Skeleton
+export class Admin_Container
   extends Component<AdminContainerProps, AdminContainerState>
   implements AdminContainerController
 {
@@ -14,12 +14,3 @@ export class Admin_Skeleton
     super(props);
   }
 }
-
-
-
-
-
-
-
-
-

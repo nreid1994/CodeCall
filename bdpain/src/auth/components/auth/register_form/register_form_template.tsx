@@ -10,5 +10,5 @@ export function template(
   props: RegisterFormProps,
   state: RegisterFormState
 ) {
-  return <div>Im The Register Page</div>;
+  return <div>Im The Register Form Page</div>;
 }
