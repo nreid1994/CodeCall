@@ -6,7 +6,7 @@ import {
 } from "./login_form_interface";
 import { template } from "./login_form_template";
 
-export class Login_Form
+export class LoginForm
   extends Component<LoginFormProps, LoginFormState>
   implements LoginFormController
 {
