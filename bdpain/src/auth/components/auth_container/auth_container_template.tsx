@@ -31,12 +31,12 @@ export function template(
                   label="Email address"
                   className="mb-3"
                 >
-                  <Form.Control type="email"/>
+                  <Form.Control type="email" placeholder="name@example.com" />
                 </FloatingLabel>
               </Form>
               <Form className="form-floating mb-3">
                 <FloatingLabel controlId="floatingPassword" label="Password">
-                  <Form.Control type="password"/>
+                  <Form.Control type="password" placeholder="Password" />
                 </FloatingLabel>
               </Form>
               <Form className="form-check mb-3">
