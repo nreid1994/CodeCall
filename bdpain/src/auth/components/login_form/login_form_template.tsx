@@ -6,7 +6,6 @@ import {
 } from "./login_form_interface";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
 
 export function template(
