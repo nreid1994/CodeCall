@@ -60,6 +60,7 @@ export function template(
           </Button>
         </div>
       </Form>
+      <Card.Link href="" className="text-center mb-5 fw-light" >Forgot Password? </Card.Link>
     </>
   );
 }
