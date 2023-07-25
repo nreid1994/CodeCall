@@ -10,7 +10,9 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import { LoginForm } from "../login_form/login_form";
-import { UserForm } from "../../../contrib/components/user_form/user_form"
+// import { UserForm } from "../../../contrib/components/user_form/user_form";
+import { AuthFindAccount } from "../auth_recovery/auth_find_account/auth_find_account";
+import { AuthChangePassword } from "../auth_recovery/auth_change_password/auth_change_password";
 
 export function template(
   this: AuthContainerController,
@@ -23,7 +25,7 @@ export function template(
         <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
           <Card className="card border-0 shadow rounded-3 my-5">
             <Card.Body className="p-4 p-sm-5">
-              <UserForm />
+              <AuthChangePassword />
             </Card.Body>
           </Card>
         </Col>

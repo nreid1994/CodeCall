@@ -6,9 +6,9 @@ import {
 } from "./user_form_interface";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
 import ProgressBar from 'react-bootstrap/ProgressBar';
+
 export function template(
   this: UserFormController,
   props: UserFormProps,
