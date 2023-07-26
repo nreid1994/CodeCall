@@ -10,7 +10,7 @@ export class LoginForm
   extends Component<LoginFormProps, LoginFormState>
   implements LoginFormController
 {
-  render = template.bind(this, this.props, this.state);
+  render = () => template.call(this, this.props, this.state);
 
   constructor(props: LoginFormProps) {
     super(props);

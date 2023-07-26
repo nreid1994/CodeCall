@@ -10,7 +10,7 @@ export class UserForm
   extends Component<UserFormProps, UserFormState>
   implements UserFormController
 {
-  render = template.bind(this, this.props, this.state);
+  render = () => template.call(this, this.props, this.state);
 
   constructor(props: UserFormProps) {
     super(props);

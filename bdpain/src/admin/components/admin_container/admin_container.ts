@@ -9,7 +9,7 @@ export class Admin_Container
   extends Component<AdminContainerProps, AdminContainerState>
   implements AdminContainerController
 {
-  render = template.bind(this, this.props, this.state);
+  render = () => template.call(this, this.props, this.state);
   constructor(props: AdminContainerProps) {
     super(props);
   }

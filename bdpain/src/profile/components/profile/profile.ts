@@ -10,7 +10,7 @@ export class Profile
   extends Component<ProfileProps, ProfileState>
   implements ProfileController
 {
-  render = template.bind(this, this.props, this.state);
+  render = () => template.call(this, this.props, this.state);
 
   constructor(props: ProfileProps) {
     super(props);

@@ -10,7 +10,7 @@ export class AuthChangePassword
   extends Component<AuthChangePasswordProps, AuthChangePasswordState>
   implements AuthChangePasswordController
 {
-  render = template.bind(this, this.props, this.state);
+  render = () => template.call(this, this.props, this.state);
 
   constructor(props: AuthChangePasswordProps) {
     super(props);

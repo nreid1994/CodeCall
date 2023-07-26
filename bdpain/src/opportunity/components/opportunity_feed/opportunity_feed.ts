@@ -10,7 +10,7 @@ export class Opportunity_Feed
   extends Component<OpportunityFeedProps, OpportunityFeedState>
   implements OpportunityFeedController
 {
-  render = template.bind(this, this.props, this.state);
+  render = () => template.call(this, this.props, this.state);
 
   constructor(props: OpportunityFeedProps) {
     super(props);

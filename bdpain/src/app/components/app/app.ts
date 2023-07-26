@@ -10,7 +10,7 @@ export class App
   extends Component<AppProps, AppState>
   implements AppController
 {
-  render = template.bind(this, this.props, this.state);
+  render = () => template.call(this, this.props, this.state);
 
   constructor(props: AppProps) {
     super(props);

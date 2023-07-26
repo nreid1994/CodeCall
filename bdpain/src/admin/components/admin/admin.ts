@@ -10,7 +10,7 @@ export class Admin
   extends Component<AdminProps, AdminState>
   implements AdminController
 {
-  render = template.bind(this, this.props, this.state);
+  render = () => template.call(this, this.props, this.state);
 
   constructor(props: AdminProps) {
     super(props);
