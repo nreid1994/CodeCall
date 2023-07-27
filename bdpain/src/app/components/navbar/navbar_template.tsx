@@ -15,6 +15,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Stack from 'react-bootstrap/Stack';
 
 export function template(
   this: NavbarController,
@@ -26,7 +27,7 @@ export function template(
       <Container fluid>
         <Col></Col>
             <Image src={BDPA} className='' style={{width : '1.5%'}}></Image>
-            <Navbar.Brand href="#" >BDPAIn</Navbar.Brand>
+            <Navbar.Brand href="#">BDPAIn</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
               <Nav
@@ -38,15 +39,16 @@ export function template(
                 <Form.Control
                   type="search"
                   placeholder="Search"
-                  className="me-2"
+                  className="pe-5"
                   aria-label="Search"
                 />
                 </Form>
-                <Nav.Link href="#" className='me-2'>Home</Nav.Link>
-                <Nav.Link href="#" className='me-2'>Opportunities</Nav.Link>
-                <Nav.Link href="#" className='me-2'>Admin</Nav.Link>
-                </Nav>
-              <Nav.Link href="#" className='me-2'>Profile</Nav.Link>
+              </Nav>
+              <Nav.Link href="#" className='me-2 p-2'>Home</Nav.Link>
+              <Nav.Link href="#" className='me-2 p-2'>Opportunities</Nav.Link>
+              <Nav.Link href="#" className='me-2 p-2'>Admin</Nav.Link>
+              <Nav.Link href="#" className='me-2 p-2'>Profile</Nav.Link>
+              <div className="vr me-3" />
               <Button>Login</Button>
             </Navbar.Collapse>
           <Col></Col>
