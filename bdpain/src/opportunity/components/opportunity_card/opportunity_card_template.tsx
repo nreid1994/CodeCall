@@ -92,7 +92,7 @@ return (
         </Card.Body>
       </div>
     </div>
-    <div className="border-bottom row">
+    <div className="row">
       <div className="col-1">
         <Image src="../../../logo512.png" className="mt-4" style={{height: 40}}></Image>
       </div>

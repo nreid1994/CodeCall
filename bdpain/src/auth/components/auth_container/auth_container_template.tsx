@@ -31,83 +31,45 @@ export function template(
   return (
     <>
       <Navbar />
-      <Container>
-        <Row>
-          <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
-            <Card className="card border-0 shadow rounded-3 my-5">
-              <Card.Body className="p-4 p-sm-5">
-                <LoginForm />
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
-      <Container>
-        <Row>
-          <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
-            <Card className="card border-0 shadow rounded-3 my-5">
-              <Card.Body className="p-4 p-sm-5">
-                <AuthChangePassword />
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
-      <Container>
-        <Row>
-          <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
-            <Card className="card border-0 shadow rounded-3 my-5">
-              <Card.Body className="p-4 p-sm-5">
-                <ProfileAbout />
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
-      <Container>
-        <Row>
-          <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
-            <Card className="card border-0 shadow rounded-3 my-5">
-              <Card.Body className="p-4 p-sm-5">
-                <ProfileExperience />
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
-      <Container>
-        <Row>
-          <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
-            <Card className="card border-0 shadow rounded-3 my-5">
-              <Card.Body className="p-4 p-sm-5">
-                <ProfileSkills />
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
-      <Container>
-        <Row>
-          <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
-            <Card className="card border-0 shadow rounded-3 my-5">
-              <Card.Body className="p-4 p-sm-5">
-                <ProfileEducation />
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
-      <Container>
-        <Row>
-          <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
-            <Card className="card border-0 shadow rounded-3 my-5">
-              <Card.Body className="p-4 p-sm-5">
-                <ProfileVolunteering />
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
+
+      <Stack className="gap-3 my-3">
+        <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
+          <Card className="card border-0 shadow rounded-3">
+            <Card.Body className="p-4">
+              <LoginForm />
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
+          <Card className="card border-0 shadow rounded-3">
+            <Card.Body className="p-4">
+              <UserForm />
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
+          <Card className="card border-0 shadow rounded-3">
+            <Card.Body className="p-4">
+              <AuthFindAccount />
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
+          <Card className="card border-0 shadow rounded-3">
+            <Card.Body className="p-4">
+              <AuthChangePassword />
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
+          <Card className="card border-0 shadow rounded-3">
+            <Card.Body className="p-4">
+              <OpportunityCard />
+            </Card.Body>
+          </Card>
+        </Col>
+      </Stack>
+
       <ProfileView />
     </>
   );
