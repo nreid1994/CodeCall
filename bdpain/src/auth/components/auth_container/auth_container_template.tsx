@@ -9,6 +9,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
+import Stack from 'react-bootstrap/Stack';
 import { LoginForm } from "../login_form/login_form";
 import { UserForm } from "../../../contrib/components/user_form/user_form";
 import { AuthFindAccount } from "../auth_recovery/auth_find_account/auth_find_account";
@@ -20,6 +21,7 @@ import { ProfileExperience } from "../../../profile/components/profile/profile_e
 import { ProfileSkills } from "../../../profile/components/profile/profile_skills/profile_skills";
 import { ProfileEducation } from "../../../profile/components/profile/profile_education/profile_education";
 import { ProfileVolunteering } from "../../../profile/components/profile/profile_volunteering/profile_volunteering";
+import { ProfileView } from "../../../profile/components/profile_view/profile_view";
 
 export function template(
   this: AuthContainerController,
@@ -28,7 +30,29 @@ export function template(
 ) {
   return (
     <>
-      <Navbar/>
+      <Navbar />
+      <Container>
+        <Row>
+          <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <Card className="card border-0 shadow rounded-3 my-5">
+              <Card.Body className="p-4 p-sm-5">
+                <LoginForm />
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <Card className="card border-0 shadow rounded-3 my-5">
+              <Card.Body className="p-4 p-sm-5">
+                <AuthChangePassword />
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
       <Container>
         <Row>
           <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
@@ -84,6 +108,7 @@ export function template(
           </Col>
         </Row>
       </Container>
+      <ProfileView />
     </>
   );
 }
