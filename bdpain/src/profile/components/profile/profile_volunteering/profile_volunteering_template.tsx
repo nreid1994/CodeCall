@@ -1,21 +1,21 @@
 import React from "react";
 import {
-  ProfileExperienceController,
-  ProfileExperienceProps,
-  ProfileExperienceState,
-} from "./profile_experience_interface";
+  ProfileVolunteeringController,
+  ProfileVolunteeringProps,
+  ProfileVolunteeringState,
+} from "./profile_volunteering_interface";
 import Card from "react-bootstrap/Card";
 import Image from 'react-bootstrap/Image';
 
 export function template(
-  this: ProfileExperienceController,
-  props: ProfileExperienceProps,
-  state: ProfileExperienceState
+  this: ProfileVolunteeringController,
+  props: ProfileVolunteeringProps,
+  state: ProfileVolunteeringState
 ) {
   return (
     <>
 			<div className="row">
-				<Card.Title className="fs-4 bolded">Experience</Card.Title>
+				<Card.Title className="fs-4 bolded">Volunteering</Card.Title>
 				<div className="col-1">
 						<Image src="../../../favicon.ico" className="mt-3" style={{height: 40}}></Image>
 				</div>
@@ -25,12 +25,6 @@ export function template(
 						<span className="d-block">
 							<Card.Text className="d-inline">
 								Location
-							</Card.Text>
-							<Card.Text className="d-inline mx-1">
-								·
-							</Card.Text>
-							<Card.Text className="d-inline">
-								Status
 							</Card.Text>
 						</span>
 						<span className="d-block">
@@ -53,29 +47,9 @@ export function template(
 								mos
 							</Card.Text>
 						</span>
-						<span className="d-block">
-							<Card.Text className="d-inline text-muted">
-								City
-							</Card.Text>
-							<Card.Text className="d-inline me-1 text-muted">
-								,
-							</Card.Text>
-							<Card.Text className="d-inline text-muted">
-								State
-							</Card.Text>
-							<Card.Text className="d-inline me-1 text-muted">
-								,
-							</Card.Text>
-							<Card.Text className="d-inline text-muted">
-								Country
-							</Card.Text>
-							<Card.Text className="d-inline mx-1 text-muted">
-								·
-							</Card.Text>
-							<Card.Text className="d-inline text-muted">
-								Where
-							</Card.Text>
-						</span>
+						<Card.Text className="d-inline me-1">
+							What you did...
+						</Card.Text>
 					</Card.Body>
 				</div>
 			</div>

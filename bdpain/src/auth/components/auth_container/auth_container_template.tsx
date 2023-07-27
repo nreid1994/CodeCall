@@ -19,6 +19,7 @@ import { ProfileAbout } from "../../../profile/components/profile/profile_about/
 import { ProfileExperience } from "../../../profile/components/profile/profile_experience/profile_experience";
 import { ProfileSkills } from "../../../profile/components/profile/profile_skills/profile_skills";
 import { ProfileEducation } from "../../../profile/components/profile/profile_education/profile_education";
+import { ProfileVolunteering } from "../../../profile/components/profile/profile_volunteering/profile_volunteering";
 
 export function template(
   this: AuthContainerController,
@@ -67,6 +68,17 @@ export function template(
             <Card className="card border-0 shadow rounded-3 my-5">
               <Card.Body className="p-4 p-sm-5">
                 <ProfileEducation />
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <Card className="card border-0 shadow rounded-3 my-5">
+              <Card.Body className="p-4 p-sm-5">
+                <ProfileVolunteering />
               </Card.Body>
             </Card>
           </Col>
