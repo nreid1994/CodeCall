@@ -4,10 +4,7 @@ import {
   ProfileAboutProps,
   ProfileAboutState,
 } from "./profile_about_interface";
-import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import Row from "react-bootstrap/Row";
-import Image from 'react-bootstrap/Image';
 
 export function template(
   this: ProfileAboutController,
