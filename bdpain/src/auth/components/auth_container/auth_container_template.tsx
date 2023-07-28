@@ -32,43 +32,43 @@ export function template(
     <>
       <Navbar />
 
-      <Stack className="gap-3 my-3">
+      {/* <Stack className="gap-2 my-3">
         <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
           <Card className="card border-0 shadow rounded-3">
-            <Card.Body className="p-4">
+            <Card.Body className="px-4 py-2">
               <LoginForm />
             </Card.Body>
           </Card>
         </Col>
         <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
           <Card className="card border-0 shadow rounded-3">
-            <Card.Body className="p-4">
+            <Card.Body className="px-4 py-2">
               <UserForm />
             </Card.Body>
           </Card>
         </Col>
         <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
           <Card className="card border-0 shadow rounded-3">
-            <Card.Body className="p-4">
+            <Card.Body className="px-4 py-2">
               <AuthFindAccount />
             </Card.Body>
           </Card>
         </Col>
         <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
           <Card className="card border-0 shadow rounded-3">
-            <Card.Body className="p-4">
+            <Card.Body className="px-4 py-2">
               <AuthChangePassword />
             </Card.Body>
           </Card>
         </Col>
         <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
           <Card className="card border-0 shadow rounded-3">
-            <Card.Body className="p-4">
+            <Card.Body className="px-4 py-2">
               <OpportunityCard />
             </Card.Body>
           </Card>
         </Col>
-      </Stack>
+      </Stack> */}
 
       <ProfileView />
     </>

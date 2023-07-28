@@ -15,11 +15,11 @@ export function template(
   return (
     <>
 			<div className="row">
-				<Card.Title className="fs-4 bolded">Volunteering</Card.Title>
+				<Card.Title className="fs-5 bolded">Volunteering</Card.Title>
 				<div className="col-1">
 						<Image src="../../../favicon.ico" className="mt-3" style={{height: 40}}></Image>
 				</div>
-				<div className="col-11">
+				<div className="col-11 p-0">
 					<Card.Body>
 						<Card.Subtitle className="bolded">Role</Card.Subtitle>
 						<span className="d-block">

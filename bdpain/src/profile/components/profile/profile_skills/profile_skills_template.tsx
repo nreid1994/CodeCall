@@ -15,14 +15,12 @@ export function template(
   return (
     <>
       <div className="py-2 row">
-        <Card.Title className="fs-4 bolded">Skills</Card.Title>
+        <Card.Title className="pb-2 fs-5 bolded">Skills</Card.Title>
         <Card.Subtitle className="bolded">Skill Name</Card.Subtitle>
-        <div className="col-1">
-            <Image src="../../../favicon.ico" className="mt-3" style={{height: 35}}></Image>
-        </div>
-        <div className="col-11">
+        <div className="p-0">
           <Card.Body>
-            <span className="d-block mt-1">
+            <span className="d-inline">
+              <Image src="../../../favicon.ico" className="me-1" style={{height: 20}}></Image>
               <Card.Text className="d-inline">
                 Executive Worker
               </Card.Text>

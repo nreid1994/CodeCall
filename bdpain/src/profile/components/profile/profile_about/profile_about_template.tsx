@@ -15,7 +15,7 @@ export function template(
     <>
 			<div className="row">
 				<Card.Body>
-				<Card.Title className="fs-4 bolded">About</Card.Title>
+				<Card.Title className="fs-5 bolded">About</Card.Title>
 				<Card.Text className="mb-1 text-muted">
 				I grew up in ..., ...in the ... I attended and received a B.A. in...
 				</Card.Text>
