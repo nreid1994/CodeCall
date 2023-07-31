@@ -8,6 +8,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import Stack from 'react-bootstrap/Stack';
 
 export function template(
   this: AuthChangePasswordController,
@@ -44,13 +45,16 @@ return (
         </Form.Floating>
         <ProgressBar now={50} label={`${50}%`} className="mb-3" />
         <div className="d-grid">
-          <Button
-            type="submit"
-            variant="primary"
-            className="btn-register text-uppercase fw-bold"
-          >
-            Reset Password
-          </Button>
+          <Stack className="gap-3">
+            <Button
+              type="submit"
+              variant="primary"
+              className="btn-register text-uppercase fw-bold"
+            >
+              Reset Password
+            </Button>
+            <Button variant="outline-secondary">Cancel</Button>
+          </Stack>
         </div>
       </Form>
     </>

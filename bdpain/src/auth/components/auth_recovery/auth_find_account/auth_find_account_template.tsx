@@ -7,6 +7,7 @@ import {
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
+import Stack from "react-bootstrap/Stack";
 
 export function template(
   this: AuthFindAccountController,
@@ -30,13 +31,16 @@ export function template(
           <Form.Label htmlFor="email">Email</Form.Label>
         </Form.Floating>
         <div className="d-grid">
-          <Button
-            type="submit"
-            variant="primary"
-            className="btn-register text-uppercase fw-bold"
-          >
-            Change Password
-          </Button>
+          <Stack className="gap-3">
+            <Button
+              type="submit"
+              variant="primary"
+              className="btn-register text-uppercase fw-bold"
+            >
+              Change Password
+            </Button>
+            <Button variant="outline-secondary">Cancel</Button>
+          </Stack>
         </div>
       </Form>
     </>

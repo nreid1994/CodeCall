@@ -10,7 +10,7 @@ export class OpportunityCard
   extends Component<OpportunityCardProps, OpportunityCardState>
   implements OpportunityCardController
 {
-  render = template.bind(this, this.props, this.state);
+  render = () => template.call(this, this.props, this.state);
 
   constructor(props: OpportunityCardProps) {
     super(props);

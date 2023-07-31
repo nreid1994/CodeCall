@@ -10,7 +10,7 @@ export class Opportunity
   extends Component<OpportunityProps, OpportunityState>
   implements OpportunityController
 {
-  render = template.bind(this, this.props, this.state);
+  render = () => template.call(this, this.props, this.state);
 
   constructor(props: OpportunityProps) {
     super(props);

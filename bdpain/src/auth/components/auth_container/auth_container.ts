@@ -10,7 +10,7 @@ export class AuthContainer
   extends Component<AuthContainerProps, AuthContainerState>
   implements AuthContainerController
 {
-  render = template.bind(this, this.props, this.state);
+  render = () => template.call(this, this.props, this.state);
   constructor(props: AuthContainerProps) {
     super(props);
   }

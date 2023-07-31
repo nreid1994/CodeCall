@@ -10,7 +10,7 @@ export class Navbar
   extends Component<NavbarProps, NavbarState>
   implements NavbarController
 {
-  render = template.bind(this, this.props, this.state);
+  render = () => template.call(this, this.props, this.state);
 
   constructor(props: NavbarProps) {
     super(props);

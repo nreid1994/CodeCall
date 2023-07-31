@@ -10,7 +10,7 @@ export class AuthFindAccount
   extends Component<AuthFindAccountProps, AuthFindAccountState>
   implements AuthFindAccountController
 {
-  render = template.bind(this, this.props, this.state);
+  render = () => template.call(this, this.props, this.state);
 
   constructor(props: AuthFindAccountProps) {
     super(props);

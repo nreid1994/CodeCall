@@ -10,7 +10,7 @@ export class Landing
   extends Component<LandingProps, LandingState>
   implements LandingController
 {
-  render = template.bind(this, this.props, this.state);
+  render = () => template.call(this, this.props, this.state);
 
   constructor(props: LandingProps) {
     super(props);
