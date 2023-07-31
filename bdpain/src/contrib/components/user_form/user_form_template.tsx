@@ -68,7 +68,7 @@ export function template(
           <Button
             type="submit"
             variant="primary"
-            className="btn-register text-uppercase fw-bold"
+            className="btn-register fw-bold"
           >
             Sign Up
           </Button>

@@ -54,7 +54,7 @@ export function template(
           <Button
             type="submit"
             variant="primary"
-            className="btn-login text-uppercase fw-bold"
+            className="btn-login fw-bold"
           >
             Sign In
           </Button>
