@@ -22,6 +22,7 @@ import { ProfileSkills } from "../../../profile/components/profile/profile_skill
 import { ProfileEducation } from "../../../profile/components/profile/profile_education/profile_education";
 import { ProfileVolunteering } from "../../../profile/components/profile/profile_volunteering/profile_volunteering";
 import { ProfileView } from "../../../profile/components/profile_view/profile_view";
+import { ProfileTop } from "../../../profile/components/profile/profile_top/profile_top";
 
 export function template(
   this: AuthContainerController,
@@ -69,7 +70,7 @@ export function template(
           </Card>
         </Col>
       </Stack> */}
-
+      
       <ProfileView />
     </>
   );

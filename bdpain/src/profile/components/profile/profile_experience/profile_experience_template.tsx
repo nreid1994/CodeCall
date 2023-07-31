@@ -17,7 +17,7 @@ export function template(
 			<div className="row">
 				<Card.Title className="fs-5 bolded">Experience</Card.Title>
 				<div className="col-1">
-						<Image src="../../../favicon.ico" className="mt-3" style={{height: 40}}></Image>
+					<Image src="../../../favicon.ico" className="mt-3" style={{height: 40}}></Image>
 				</div>
 				<div className="col-11 p-0">
 					<Card.Body>
