@@ -21,7 +21,7 @@ export function template(
 ) {
   return (
     <>
-      <Stack className="gap-2 my-3">
+      <Stack className="gap-2 my-4">
         <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
           <Card className="card border-0 shadow rounded-3">
             <Card.Body className="p-0">

@@ -16,12 +16,12 @@ import { AuthFindAccount } from "../auth_recovery/auth_find_account/auth_find_ac
 import { AuthChangePassword } from "../auth_recovery/auth_change_password/auth_change_password";
 import { OpportunityCard } from "../../../opportunity/components/opportunity_card/opportunity_card";
 import { Navbar } from "../../../app/components/navbar/navbar";
+import { ProfileView } from "../../../profile/components/profile_view/profile_view";
 import { ProfileAbout } from "../../../profile/components/profile/profile_about/profile_about";
 import { ProfileExperience } from "../../../profile/components/profile/profile_experience/profile_experience";
 import { ProfileSkills } from "../../../profile/components/profile/profile_skills/profile_skills";
 import { ProfileEducation } from "../../../profile/components/profile/profile_education/profile_education";
 import { ProfileVolunteering } from "../../../profile/components/profile/profile_volunteering/profile_volunteering";
-import { ProfileView } from "../../../profile/components/profile_view/profile_view";
 import { ProfileTop } from "../../../profile/components/profile/profile_top/profile_top";
 
 export function template(
