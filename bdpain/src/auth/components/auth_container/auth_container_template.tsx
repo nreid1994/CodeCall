@@ -23,6 +23,7 @@ import { ProfileSkills } from "../../../profile/components/profile/profile_skill
 import { ProfileEducation } from "../../../profile/components/profile/profile_education/profile_education";
 import { ProfileVolunteering } from "../../../profile/components/profile/profile_volunteering/profile_volunteering";
 import { ProfileTop } from "../../../profile/components/profile/profile_top/profile_top";
+import { AdminContainer } from "../../../admin/components/admin_container/admin_container"
 
 export function template(
   this: AuthContainerController,
@@ -32,7 +33,13 @@ export function template(
   return (
     <>
       <Navbar />
-
+      <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
+          <Card className="card border-0 shadow rounded-3">
+            <Card.Body className="px-4 py-2">
+              <AdminContainer></AdminContainer>
+            </Card.Body>
+          </Card>
+        </Col>
       {/* <Stack className="gap-2 my-3">
         <Col className="col-sm-9 col-md-7 col-lg-5 mx-auto">
           <Card className="card border-0 shadow rounded-3">

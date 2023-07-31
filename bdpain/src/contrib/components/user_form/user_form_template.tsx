@@ -62,7 +62,7 @@ export function template(
             placeholder="captcha"
             required
           />
-          <Form.Label htmlFor="email">Captcha: What is 2+2</Form.Label>
+          <Form.Label htmlFor="captcha">Captcha: What is 2+2</Form.Label>
         </Form.Floating>
         <div className="d-grid">
           <Button
