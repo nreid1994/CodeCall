@@ -126,7 +126,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Public Talker
+            Public Speaker
           </Button>
           <Button
             type="submit"
@@ -329,8 +329,9 @@ export function template(
               <Dropdown.Item href="#/action-3">Something Else Other Than This</Dropdown.Item>
               <Dropdown.Item href="#/action-4">Stocks</Dropdown.Item>
               <Dropdown.Item href="#/action-5">Walking</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Sleeping Full Hours</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Food Choices</Dropdown.Item>
+              <Dropdown.Item href="#/action-6">Sleeping Full Hours</Dropdown.Item>
+              <Dropdown.Item href="#/action-7">Food Choices</Dropdown.Item>
+              <Dropdown.Item href="#/action-8">Seeing a therapist</Dropdown.Item>
             </DropdownButton>
           </div>
         </div>
