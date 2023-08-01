@@ -24,6 +24,7 @@ import { ProfileEducation } from "../../../profile/components/profile/profile_ed
 import { ProfileVolunteering } from "../../../profile/components/profile/profile_volunteering/profile_volunteering";
 import { ProfileTop } from "../../../profile/components/profile/profile_top/profile_top";
 import { Admin } from "../../../admin/components/admin/admin";
+import { Landing } from "../../../landing/components/landing/landing"
 
 export function template(
   this: AuthContainerController,
@@ -33,7 +34,7 @@ export function template(
   return (
     <>
       <Navbar />
-      <Admin/>
+      <Landing/>
     </>
   );
 }
