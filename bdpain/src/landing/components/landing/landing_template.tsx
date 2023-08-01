@@ -331,7 +331,7 @@ export function template(
               <Dropdown.Item href="#/action-5">Walking</Dropdown.Item>
               <Dropdown.Item href="#/action-6">Sleeping Full Hours</Dropdown.Item>
               <Dropdown.Item href="#/action-7">Food Choices</Dropdown.Item>
-              <Dropdown.Item href="#/action-8">Seeing a therapist</Dropdown.Item>
+              <Dropdown.Item href="#/action-8">Meditaion</Dropdown.Item>
             </DropdownButton>
           </div>
         </div>
