@@ -12,6 +12,8 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Stack from "react-bootstrap/Stack";
 import Image from "react-bootstrap/Image";
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 
 export function template(
   this: LandingController,
@@ -96,7 +98,7 @@ export function template(
           </Card>
         </Col>
         <div className="col-6 position-relative">
-          <Image src="../../../favicon.ico" className="position-absolute" id="BeginningImage" roundedCircle></Image>
+          <Image src="../../../favicon.ico" className="position-absolute" id="BeginningImage" rounded></Image>
         </div>
       </div>
 
@@ -314,11 +316,46 @@ export function template(
           </Card.Text>
         </div>
         <div className="col-6 position-relative" id="FirstSectionSecondCol">
-          <Image src="../../../favicon.ico" className="position-absolute" id="ConnectionImage" roundedCircle></Image>
+          <Image src="../../../favicon.ico" className="position-absolute" id="ConnectionImage" rounded></Image>
         </div>
       </div>
 
       {/* Zada's circles and boxes here */}
+      <div className="row" id="WhiteFourthSection">
+        <div className="col-5" id="FourthSectionCol">
+          <div className="position-relative" id="">
+            <Image src="../../../favicon.ico" className="position-absolute" id="FourthSectionImage" rounded></Image>
+          </div>
+          <div>
+            <Card.Title className="fw-light" id="FourthSectionTitle">
+              Connect with others in this application
+            </Card.Title>
+            <Button
+              type="submit"
+              variant="outline-dark"
+              className="btn-register"
+              id="ThirdSectionButton"
+            >
+              Find other that may help you
+            </Button>
+          </div>
+        </div>
+        <div className="col-5" id="FourthSectionCol">
+          <div className="position-relative" id="">
+            <Image src="../../../favicon.ico" className="position-absolute" id="FourthSectionImage" rounded></Image>
+          </div>
+          <div>
+            <Card.Title className="fw-light" id="FourthSectionTitle">
+              Learn new skills to succeed
+            </Card.Title>
+            <DropdownButton variant="outline-dark" id="FourthSectionDropDown" title="Choose a topic to learn about">
+              <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+              <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+            </DropdownButton>
+          </div>
+        </div>
+      </div>
 
       <div className="row" id="WhitePathSection">
         <div className="col-6" id="PathCol">
@@ -355,7 +392,7 @@ export function template(
           </div>
         </div>
         <div className="col-6 position-relative" id="FirstSectionSecondCol">
-          <Image src="../../../favicon.ico" className="position-absolute" id="PathImage" roundedCircle></Image>
+          <Image src="../../../favicon.ico" className="position-absolute" id="PathImage" rounded></Image>
         </div>
       </div>
 
