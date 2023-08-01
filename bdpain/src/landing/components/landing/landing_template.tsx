@@ -255,7 +255,7 @@ export function template(
           </Button>
           <Button
             type="submit"
-            variant="outline-dark"
+            variant="outline-primary"
             className="btn-register"
             id="SectionButtons"
           >
@@ -325,9 +325,9 @@ export function template(
               Learn new skills to succeed
             </Card.Title>
             <DropdownButton variant="outline-dark" id="FourthSectionDropDown" title="Choose a topic to learn about">
-              <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+              <Dropdown.Item href="#/action-1">Bike Riding</Dropdown.Item>
+              <Dropdown.Item href="#/action-2">Finances</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Something else other than this</Dropdown.Item>
             </DropdownButton>
           </div>
         </div>
