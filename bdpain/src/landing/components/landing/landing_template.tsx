@@ -209,7 +209,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Marketing
+            Make Conncetions
           </Button>
           <Button
             type="submit"
@@ -217,7 +217,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Public Administration
+            Get Experince
           </Button>
           <Button
             type="submit"
@@ -225,7 +225,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Employee Training
+            Mentour others 
           </Button>
           <Button
             type="submit"
@@ -233,7 +233,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Health Care
+            Spread awareness
           </Button>
           <Button
             type="submit"
@@ -241,7 +241,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Engineering
+            Grow with each other 
           </Button>
           <Button
             type="submit"
@@ -249,35 +249,11 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Online Marketing
+             Manage yourselfs 
           </Button>
           <Button
             type="submit"
             variant="outline-dark"
-            className="btn-register"
-            id="SectionButtons"
-          >
-            Talent Management
-          </Button>
-          <Button
-            type="submit"
-            variant="outline-dark"
-            className="btn-register"
-            id="SectionButtons"
-          >
-            IT Services
-          </Button>
-          <Button
-            type="submit"
-            variant="outline-dark"
-            className="btn-register"
-            id="SectionButtons"
-          >
-            Business Administration
-          </Button>
-          <Button
-            type="submit"
-            variant="outline-primary"
             className="btn-register"
             id="SectionButtons"
           >
