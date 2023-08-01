@@ -243,7 +243,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Grow With Eachother 
+            Grow With Each Other 
           </Button>
           <Button
             type="submit"
