@@ -359,6 +359,21 @@ export function template(
         </div>
       </div>
 
+      <div className='landing_image_near_footer'>
+        <Row className="col-12">
+          <Col className="col-1"></Col>
+          <div className='col-10'>
+            <Card.Title className="h2 fw-light">
+              Join your friends, classmates, and coworkers on InBDPA!
+            </Card.Title>
+            <Button className="landing_get_started_button">
+              Get Started!
+            </Button>
+          </div>
+          <Col className="col-1"></Col>
+        </Row>
+      </div>
+
     </>
   );
 }

@@ -79,18 +79,18 @@ body {
 }
 
 #ConnectionImage {
-		height:32rem;
-		top:50%;
-		margin-top:-16rem;
-		left:50%;
-		margin-left:-16rem;
+	height:32rem;
+	top:50%;
+	margin-top:-16rem;
+	left:50%;
+	margin-left:-16rem;
 }
 
 #FindSection {
 	background-color:antiquewhite;
 	padding-top:4rem;
-  padding-left:13.5rem;
-  padding-bottom:4rem;
+    padding-left:13.5rem;
+    padding-bottom:4rem;
 }
 
 #DarkConnectionSection {
@@ -126,3 +126,29 @@ body {
 	margin-left:-21rem;
 }
 
+.landing_image_near_footer {
+    background-image: url(../../../BDPA.png);
+    background-size: 100%;
+    min-height: 840px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.h2 {
+    font-size: 48px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.landing_get_started_button {
+    height: min-content;
+    min-height: 48px;
+    border-radius: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
