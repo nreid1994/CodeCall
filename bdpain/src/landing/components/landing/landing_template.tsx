@@ -118,7 +118,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Marketing
+            Looking At Birds
           </Button>
           <Button
             type="submit"
@@ -126,7 +126,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Public Administration
+            Public Talker
           </Button>
           <Button
             type="submit"
@@ -134,7 +134,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Employee Training
+            Special Training
           </Button>
           <Button
             type="submit"
@@ -142,7 +142,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Health Care
+            Health Kindness
           </Button>
           <Button
             type="submit"
@@ -150,7 +150,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Engineering
+            DIY Engineering
           </Button>
           <Button
             type="submit"
@@ -158,7 +158,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Online Marketing
+            Offline Marketing
           </Button>
           <Button
             type="submit"
@@ -166,7 +166,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Talent Management
+            Talent Selection
           </Button>
           <Button
             type="submit"
@@ -174,7 +174,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            IT Services
+            Clown Services
           </Button>
           <Button
             type="submit"
@@ -182,7 +182,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Business Administration
+            Business Overseer
           </Button>
           <Button
             type="submit"
@@ -211,7 +211,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Make Conncetions
+            Make Connections
           </Button>
           <Button
             type="submit"
@@ -219,7 +219,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Get Experince
+            Get Experience
           </Button>
           <Button
             type="submit"
@@ -227,7 +227,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Mentour others 
+            Mentor Others 
           </Button>
           <Button
             type="submit"
@@ -235,7 +235,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Spread awareness
+            Spread Awareness
           </Button>
           <Button
             type="submit"
@@ -243,7 +243,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-            Grow with each other 
+            Grow With Eachother 
           </Button>
           <Button
             type="submit"
@@ -251,7 +251,7 @@ export function template(
             className="btn-register"
             id="SectionButtons"
           >
-             Manage yourselfs 
+            Manage Yourself
           </Button>
           <Button
             type="submit"
@@ -295,7 +295,7 @@ export function template(
           <Image src="../../../favicon.ico" className="position-absolute" id="ConnectionImage" rounded></Image>
         </div>
       </div>
-      
+
       <div className="row" id="WhiteFourthSection">
         <div className="col-5" id="FourthSectionCol">
           <div className="position-relative" id="">
@@ -326,7 +326,11 @@ export function template(
             <DropdownButton variant="outline-dark" id="FourthSectionDropDown" title="Choose a topic to learn about">
               <Dropdown.Item href="#/action-1">Bike Riding</Dropdown.Item>
               <Dropdown.Item href="#/action-2">Finances</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Something else other than this</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Something Else Other Than This</Dropdown.Item>
+              <Dropdown.Item href="#/action-4">Stocks</Dropdown.Item>
+              <Dropdown.Item href="#/action-5">Walking</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Sleeping Full Hours</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Food Choices</Dropdown.Item>
             </DropdownButton>
           </div>
         </div>
