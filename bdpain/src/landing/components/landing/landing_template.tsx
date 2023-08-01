@@ -295,8 +295,7 @@ export function template(
           <Image src="../../../favicon.ico" className="position-absolute" id="ConnectionImage" rounded></Image>
         </div>
       </div>
-
-      {/* Zada's circles and boxes here */}
+      
       <div className="row" id="WhiteFourthSection">
         <div className="col-5" id="FourthSectionCol">
           <div className="position-relative" id="">
