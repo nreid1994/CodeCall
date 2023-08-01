@@ -285,7 +285,7 @@ export function template(
       <div className="row" id="DarkConnectionSection">
         <div className="col-4" id="FirstSectionFirstCol">
           <Card.Title className="" id="ThirdSectionTitle">
-            "Connect with others in this application had really helped me! Especially when I didn't have any beforehand..."
+            "Connecting with others in this application had really helped me! Especially when I didn't have any beforehand..."
           </Card.Title>
           <Card.Text className="fw-light" id="BiggerSectionText">
             Connect with others outside your workplace, find subcontractors, or talk with independent services and more! Afterall, the workplace isn't just about work.
