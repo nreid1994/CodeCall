@@ -98,7 +98,7 @@ export function template(
           </Card>
         </Col>
         <div className="col-6 position-relative">
-          <Image src="../../../favicon.ico" className="position-absolute" id="BeginningImage" rounded></Image>
+          <Image src="../../../StockImage3.png" className="position-absolute" id="BeginningImage" rounded></Image>
         </div>
       </div>
 
@@ -292,14 +292,14 @@ export function template(
           </Card.Text>
         </div>
         <div className="col-6 position-relative" id="FirstSectionSecondCol">
-          <Image src="../../../favicon.ico" className="position-absolute" id="ConnectionImage" rounded></Image>
+          <Image src="../../../StockImage4.png" className="position-absolute" id="ConnectionImage" rounded></Image>
         </div>
       </div>
 
       <div className="row" id="WhiteFourthSection">
         <div className="col-5" id="FourthSectionCol">
           <div className="position-relative" id="">
-            <Image src="../../../favicon.ico" className="position-absolute" id="FourthSectionImage" rounded></Image>
+            <Image src="../../../StockImage2.png" className="position-absolute" id="FourthSectionImage" rounded></Image>
           </div>
           <div>
             <Card.Title className="fw-light" id="FourthSectionTitle">
@@ -317,7 +317,7 @@ export function template(
         </div>
         <div className="col-5" id="FourthSectionCol">
           <div className="position-relative" id="">
-            <Image src="../../../favicon.ico" className="position-absolute" id="FourthSectionImage" rounded></Image>
+            <Image src="../../../StockImage1.png" className="position-absolute" id="FourthSectionImage" rounded></Image>
           </div>
           <div>
             <Card.Title className="fw-light" id="FourthSectionTitle">
@@ -372,7 +372,7 @@ export function template(
           </div>
         </div>
         <div className="col-6 position-relative" id="FirstSectionSecondCol">
-          <Image src="../../../favicon.ico" className="position-absolute" id="PathImage" rounded></Image>
+          <Image src="../../../StockImage5.jpg" className="position-absolute" id="PathImage" rounded></Image>
         </div>
       </div>
 
